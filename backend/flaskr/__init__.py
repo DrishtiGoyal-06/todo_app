@@ -1,6 +1,6 @@
 import flaskr.models
 
-from flaskr import Flask
+from flask import Flask
 from config import DevelopmentConfig
 from flaskr.extensions import migrate, api, cors, jwt
 from flaskr.db import db
